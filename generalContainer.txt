@@ -1,0 +1,113 @@
+    <!--DOCTYPE html-->
+<!-- Jonathan Wydola
+    Scotts Dog Walking
+    general container for all pages to make
+    -->
+    
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!-- Font Awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+        <!-- bootstrap then custom-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styleMenuIcons.css">
+        <title>ScottyDogWalkerMurph</title>
+    </head>
+    
+    <!-- starting the header-->
+    <body>
+            <!--below is the navbar which resides at the top of the page with an inverse style and dropdown menu-->
+            <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+                <!-- button for menu on mobile and smaller devices-->
+                <button id="navBarButton" class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">DogWalker</a>
+                <!--end of button heading-->
+                
+                <!-- item headers for navbar-->
+                <div class="navbar-collapse collapse" id="navbarsDefault" aria-expanded="false">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About The Dogs</a>
+                        </li>
+                        <!--begins the dropdown section, each value needs bg-inverse and text-white-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu bg-inverse" aria-labelledby="dropdown01">
+                                <a class="dropdown-item bg-inverse text-white" href="#">Services & Locations</a>
+                                <a class="dropdown-item bg-inverse text-white" href="#">Rates</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item bg-inverse text-white" href="#">Contact</a>
+                                <a class="dropdown-item bg-inverse text-white" href="#">Reviews</a>
+                            </div>
+                        </li>
+                        <!-- end of dropdown-->
+                    </ul>
+                </div>
+                <!-- end of header items-->
+            </nav>
+            <!-- End of navbar-->
+            
+        <!-- code is about to get very spaced in order to allwo for some easy finding and swapping.-->
+            
+        <!--Begin the body and sectioning-->
+        <div class="jumbotron" id="indexHeadingJumbo">
+            <div class="container-fluid cont-trim" id="mainHead">
+                <!-- replace with a dictionary of possible matches and phrases, delimetered by [] -->
+                <h1>It's good to see you!</h1>
+            </div>
+        </div>
+        <div class="container first-container">
+            <div class="row row-centered">
+                    <div class="col-xs-12 col-centered">
+                        <h2>~About Me~</h2>
+                            <p id="customFontsAboutMe">My name is Scott. Yada yada yada, etc. so forth. Filling this with content
+                            Only becayse I need some body to see how it looks. I do Karate like a Fag.
+                            Look at me swing my swords</p>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="bottom-bt"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container main-container">
+                <div class="row">
+                    <div class="break-line"></div>
+                    <div class="col-md-6 col-centered">
+                        <h5>QUICK LINKS</h5>
+                        <ul class="ul-aligned">
+                            <li>About</li>
+                            <li>something</li>
+                            <li>Contact</li>
+                            <li>The Dogs</li>
+                        <ul>
+                    </div>
+                    <div class="col-md-6 col-centered">
+                        <p>This is the left hand side</p>
+                        <p>Probably to put like a contact sheet</p>
+                        <p>Or to add a hot bar?</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>        
+        <script src="js/indexJS.js"</script>
+    </body>
+</html>
