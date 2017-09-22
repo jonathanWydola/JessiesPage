@@ -130,6 +130,9 @@ hr{
 .poemColumn{
     padding-bottom:  35px;
 }
+.poemColumn h2, .poemHeadColumn h2{
+    padding-bottom:  60px;
+}
 .myBabyJColumn img{
     display:         block;
     margin:          50px auto;
