@@ -116,12 +116,23 @@ hr{
 }
 .aboutColumn p, .poemHeadColumn p{
     margin:          auto;
-    padding:         0 55px;
+    padding:         0 150px;
     min-width:       400px;
 }
 
-.myBabyJColumn, .poemColumn{
-    padding-bottom:  50px;
+.myBabyJColumn{
+    padding-bottom:  300px;
+}
+
+.poemHeadColumn{
+    padding-bottom:  55px;
+}
+.poemColumn{
+    padding-bottom:  35px;
+}
+.myBabyJColumn img{
+    display:         block;
+    margin:          50px auto;
 }
 /*adding styles for image gallery*/
 /*custom style fonts*/
