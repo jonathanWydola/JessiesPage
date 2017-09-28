@@ -23,10 +23,11 @@ hr{
     
     padding-top:      30px;
     padding-bottom:   5px;
+    padding-bottom:   5px;
     text-align:       center;
 }
 
-.aboutColumn h2, .myBabyJColumn h2{
+.aboutColumn h2, .myBabyJColumn h2, .myBabyJColumn h3{
     margin-bottom:    30px;
 }
     
@@ -114,7 +115,7 @@ hr{
     font-family:      'Proza Libre', sans-serif;
 
 }
-.aboutColumn p, .poemHeadColumn p{
+.aboutColumn p, .poemHeadColumn p, .myBabyJColumn p{
     margin:          auto;
     padding:         0 150px;
     min-width:       400px;

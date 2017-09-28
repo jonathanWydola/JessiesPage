@@ -1,6 +1,6 @@
 "use strict";
 $(document).ready(function(){
-    var totImages = 22;
+    var totImages = 31;
     var filePath = "../images/pictures/img";
     var columnBeg = '<div>';
     var tag = '<img src = "'; 
